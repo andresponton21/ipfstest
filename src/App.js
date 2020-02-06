@@ -40,7 +40,7 @@ class App extends Component {
       console.log(result)
       hash = result.path
     }
-//get
+//console log
     console.log('Ipfs result', hash)
     this.setState({ fileHash: hash })
   }
